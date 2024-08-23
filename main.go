@@ -32,6 +32,6 @@ func main() {
 	// 启动gin服务
 	err := r.Run(conf.GlobalCfg.Server.Port)
 	if err != nil {
-		panic(err.Error())
+		panic(err)
 	}
 }
