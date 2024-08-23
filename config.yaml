@@ -1,0 +1,23 @@
+# 服务器信息
+server:
+  AppName: "上海橙舟App"
+  Domain: "https://api.youxue.com"
+  Port: ":8052"
+  Mode: "debug" # release  test
+
+# 数据库
+Db:
+  Host: "localhost:3306"
+  User: "root"
+  Pwd: "root"
+  DbName: "_stu"
+  Show: true
+  Idle: 5
+  Open: 5
+  Config: "charset=utf8mb4&parseTime=True&loc=Local"
+
+# Redis
+redis:
+  Host: "127.0.0.1:6379"
+  Pwd: ""
+  Db: 1
